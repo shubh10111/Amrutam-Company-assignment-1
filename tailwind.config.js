@@ -1,0 +1,40 @@
+module.exports = {
+  mode: "jit",
+  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        white: { A700: "#ffffff" },
+        orange: { 50: "#fff7e2" },
+        green: { 50: "#eaf2ea", 800: "#3a643b", "100_7f": "#cfebcf7f", "800_63": "#3a643b63" },
+        gray: {
+          100: "#f3f3f3",
+          200: "#ededed",
+          300: "#dceedc",
+          600: "#7b7b7b",
+          700: "#575757",
+          800: "#3c3c3c",
+          "300_01": "#e2e2e2",
+          "800_01": "#464646",
+          "600_01": "#757575",
+          "700_02": "#646665",
+          "700_01": "#646464",
+        },
+        black: { "900_01": "#000000" },
+        blue_gray: { 100: "#cdcdcd", 900: "#2e2f2e", "100_01": "#d4d4d4" },
+      },
+      boxShadow: { xs: "0px 4px 12px 0px #00000011" },
+      fontFamily: {
+        nunito: "Nunito",
+        dinpro: "DINPro",
+        inter: "Inter",
+        dinprobold: "DINPro-Bold",
+        gothamrounded: "Gotham Rounded",
+      },
+      backgroundImage: { gradient: "linear-gradient(180deg, #0b0b0b,#0b0b0bc9)" },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};

@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterRegular.ttf");
+  font-family: "Inter";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/NunitoBold.ttf");
+  font-family: "Nunito";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/NunitoRegular.ttf");
+  font-family: "Nunito";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/NunitoSemiBold.ttf");
+  font-family: "Nunito";
+  font-weight: 600;
+}
